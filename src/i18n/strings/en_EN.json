@@ -1236,6 +1236,8 @@
     "Messages containing keywords": "Messages containing keywords",
     "Error saving notification preferences": "Error saving notification preferences",
     "An error occurred whilst saving your notification preferences.": "An error occurred whilst saving your notification preferences.",
+    "Keywords cannot start with '.'": "Keywords cannot start with '.'",
+    "Keywords cannot contain '/'": "Keywords cannot contain '/'",
     "Enable for this account": "Enable for this account",
     "Enable email notifications for %(email)s": "Enable email notifications for %(email)s",
     "Enable desktop notifications for this session": "Enable desktop notifications for this session",
@@ -3313,7 +3315,5 @@
     "Esc": "Esc",
     "Enter": "Enter",
     "End": "End",
-    "[number]": "[number]",
-    "Keywords cannot start with '.'": "Keywords cannot start with '.'",
-    "Keywords cannot contain '/'": "Keywords cannot contain '/'"
+    "[number]": "[number]"
 }
