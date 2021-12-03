@@ -38,7 +38,7 @@ import AccessibleButton from "../elements/AccessibleButton";
 import TagComposer from "../elements/TagComposer";
 import { objectClone } from "../../../utils/objects";
 import { arrayDiff } from "../../../utils/arrays";
-import withValidation, { IFieldState, IValidationResult } from "../elements/Validation";
+import withValidation from "../elements/Validation";
 
 import { logger } from "matrix-js-sdk/src/logger";
 
@@ -471,7 +471,7 @@ export default class Notifications extends React.PureComponent<IProps, IState> {
     };
 
     private validateKeyword = withValidation({
-        description: () => undefined, //_t("Use an email address to recover your account"),
+        description: () => undefined,
         hideDescriptionIfValid: true,
         rules: [
             {
