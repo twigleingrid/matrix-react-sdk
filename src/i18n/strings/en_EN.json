@@ -3313,5 +3313,7 @@
     "Esc": "Esc",
     "Enter": "Enter",
     "End": "End",
-    "[number]": "[number]"
+    "[number]": "[number]",
+    "Keywords cannot start with '.'": "Keywords cannot start with '.'",
+    "Keywords cannot contain '/'": "Keywords cannot contain '/'"
 }
